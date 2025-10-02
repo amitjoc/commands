@@ -7,4 +7,9 @@
 > ```
 > apt update
 > apt upgrade
->  ```
+> ```
+
+To Search `MariaDB Server` package on `apt repository`
+```
+> apt search mariadb-server
+```
