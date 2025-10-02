@@ -13,3 +13,13 @@ To Search `MariaDB Server` package on `apt repository`
 ```
 > apt search mariadb-server
 ```
+
+To start MariaDB Server service 
+```
+> systemctl start mariadb
+```
+
+To Check status of MaraiDB Server service 
+```
+> systemctl status mariadb
+```
