@@ -33,3 +33,13 @@ To Check status of MariaDB Server service
 ```
 sudo systemctl status mariadb
 ```
+
+Enable MariaDB to start on boot
+```
+sudo systemctl enable mariadb
+```
+
+Verify or connect Maraidb after installation 
+``` 
+mariadb -u root -p
+```
