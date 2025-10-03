@@ -11,25 +11,25 @@
 
 To Search `MariaDB Server` package on `apt repository`
 ```
-> sudo apt search mariadb-server
+sudo apt search mariadb-server
 ```
 
 To Install `Mariadb Server and Client` 
 ```
-> sudo apt install mariadb-server mariadb-client
+sudo apt install mariadb-server mariadb-client
 ```
 
 Then Must run Secure Installation command 
 ```
-> sudo mariadb-secure-installation
+sudo mariadb-secure-installation
 ```
 
 To start MariaDB Server service 
 ```
-> sudo systemctl start mariadb
+sudo systemctl start mariadb
 ```
 
 To Check status of MariaDB Server service 
 ```
-> sudo systemctl status mariadb
+sudo systemctl status mariadb
 ```
