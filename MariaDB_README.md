@@ -72,6 +72,14 @@ mariadb -u root -p
 ```
 
 
+## Basic Commands 
+
+### Mariadb Server Version 
+
+```
+mariadb --version
+```
+
 
 
 
