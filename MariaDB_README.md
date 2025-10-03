@@ -1,6 +1,10 @@
 # MariaDB Commands
 
-# MariaDB Installation on Ubuntu OS 
+# MariaDB Installation
+
+## On Ubuntu OS 
+
+ ### Before Installation 
 
 > [!NOTE]
 > First Update package information and upgrade
@@ -9,20 +13,29 @@
 > sudo apt upgrade
 > ```
 
+ ### Search Package
+
 To Search `MariaDB Server` package on `apt repository`
+
 ```
 sudo apt search mariadb-server
 ```
+
+### Install Package 
 
 To Install `Mariadb Server and Client` 
 ```
 sudo apt install mariadb-server mariadb-client
 ```
 
-Then Must run Secure Installation command 
-```
-sudo mariadb-secure-installation
-```
+### Secure Installation Command
+
+> [!NOTE]
+> Then Must run Secure Installation command 
+>
+> ```
+> sudo mariadb-secure-installation
+> ```
 
 To start MariaDB Server service 
 ```
