@@ -5,21 +5,31 @@
 > [!NOTE]
 > First Update package information and upgrade
 > ```
-> apt update
-> apt upgrade
+> sudo apt update
+> sudo apt upgrade
 > ```
 
 To Search `MariaDB Server` package on `apt repository`
 ```
-> apt search mariadb-server
+> sudo apt search mariadb-server
+```
+
+To Install `Mariadb Server and Client` 
+```
+> sudo apt install mariadb-server mariadb-client
+```
+
+Then Must run Secure Installation command 
+```
+> sudo mariadb-secure-installation
 ```
 
 To start MariaDB Server service 
 ```
-> systemctl start mariadb
+> sudo systemctl start mariadb
 ```
 
-To Check status of MaraiDB Server service 
+To Check status of MariaDB Server service 
 ```
-> systemctl status mariadb
+> sudo systemctl status mariadb
 ```
