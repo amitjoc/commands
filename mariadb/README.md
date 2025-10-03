@@ -3,4 +3,4 @@
 
 ## Installation & Basic Commands
 
-- [Installation Commands](/MariaDB_README.md)
+- [Installation Commands](/mariadb/MariaDB_README.md)
